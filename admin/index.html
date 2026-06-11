@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>پنل مدیریت | وب‌مانیا</title>
+    <link rel="icon" href="../favicon.ico" sizes="any">
+    <link rel="apple-touch-icon" href="../icon.png">
+    <meta name="robots" content="noindex, nofollow">
+    <link href="../fonts.googleapis.css" rel="stylesheet">
+
+    <!-- استایل اختصاصی پنل ادمین -->
+    <link rel="stylesheet" href="admin.css">
+
+    <!-- کتابخانه‌ها -->
+    <script src="../tailwind.min.css"></script>
+    <script src="../vendor/react.production.min.js"></script>
+    <script src="../vendor/react-dom.production.min.js"></script>
+    <script src="../vendor/babel.min.js"></script>
+    <script src="../vendor/lucide.min.js"></script>
+</head>
+<body class="bg-[#050505]">
+    <div id="root"></div>
+
+    <!-- ماژول‌های پنل ادمین به ترتیب وابستگی -->
+    <script type="text/babel" src="admin-icon.js"></script>
+    <script type="text/babel" src="admin-dashboard.js"></script>
+    <script type="text/babel" src="admin-crud.js"></script>
+    <script type="text/babel" src="admin-lists.js"></script>
+    <script type="text/babel" src="admin-settings.js"></script>
+    <script type="text/babel" src="admin-app.js"></script>
+</body>
+</html>

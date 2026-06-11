@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" fill="none">
+  <defs>
+    <filter id="s" x="-50%" y="-50%" width="200%" height="220%"><feDropShadow dx="0" dy="18" stdDeviation="16" flood-color="#000" flood-opacity=".42"/><feDropShadow dx="0" dy="0" stdDeviation="10" flood-color="#8b5cf6" flood-opacity=".38"/></filter>
+    <linearGradient id="shell" x1="55" y1="34" x2="170" y2="180" gradientUnits="userSpaceOnUse"><stop stop-color="#fff"/><stop offset=".38" stop-color="#dbeafe"/><stop offset="1" stop-color="#8b5cf6"/></linearGradient>
+    <linearGradient id="core" x1="70" y1="116" x2="150" y2="192" gradientUnits="userSpaceOnUse"><stop stop-color="#a78bfa"/><stop offset=".55" stop-color="#6366f1"/><stop offset="1" stop-color="#38bdf8"/></linearGradient>
+    <radialGradient id="aura" cx="50%" cy="45%" r="60%"><stop stop-color="#8b5cf6" stop-opacity=".42"/><stop offset="1" stop-color="#8b5cf6" stop-opacity="0"/></radialGradient>
+    <style>
+      .bot{animation:float 4.4s ease-in-out infinite;transform-origin:110px 170px}.head{animation:tilt 4.4s ease-in-out infinite;transform-origin:110px 82px}.eye{animation:blink 4.8s infinite;transform-origin:center}.scan{animation:scan 3.5s ease-in-out infinite}.armL{animation:armL 3.3s ease-in-out infinite;transform-origin:75px 133px}.armR{animation:armR 3.8s ease-in-out infinite;transform-origin:145px 133px}.dot{animation:talk 1.15s infinite}.dot:nth-child(2){animation-delay:.15s}.dot:nth-child(3){animation-delay:.3s}@keyframes float{0%,100%{transform:translateY(0) rotate(-1deg)}50%{transform:translateY(-8px) rotate(1deg)}}@keyframes tilt{0%,100%{transform:rotate(0)}50%{transform:rotate(-2deg)}}@keyframes blink{0%,91%,100%{transform:scaleY(1)}94%{transform:scaleY(.08)}96%{transform:scaleY(1)}}@keyframes scan{0%,55%{transform:translateX(-70px)}80%,100%{transform:translateX(80px)}}@keyframes armL{0%,100%{transform:rotate(-8deg)}50%{transform:rotate(-28deg)}}@keyframes armR{0%,100%{transform:rotate(8deg)}50%{transform:rotate(22deg)}}@keyframes talk{0%,100%{opacity:.35;transform:translateY(0)}50%{opacity:1;transform:translateY(-3px)}}
+    </style>
+  </defs>
+  <g filter="url(#s)" class="bot">
+    <circle cx="110" cy="108" r="92" fill="url(#aura)" opacity=".9"/>
+    <path d="M110 32V15" stroke="#c4b5fd" stroke-width="4" stroke-linecap="round"/><circle cx="110" cy="11" r="8" fill="#8b5cf6" stroke="#fff" stroke-opacity=".65" stroke-width="2"/>
+    <g class="head">
+      <rect x="52" y="39" width="116" height="82" rx="34" fill="url(#shell)" stroke="white" stroke-opacity=".66" stroke-width="2"/>
+      <rect x="68" y="56" width="84" height="50" rx="22" fill="#090f1f" stroke="white" stroke-opacity=".14" stroke-width="2"/>
+      <rect class="scan" x="66" y="55" width="30" height="52" rx="16" fill="white" opacity=".12"/>
+      <circle class="eye" cx="93" cy="80" r="8" fill="#7dd3fc"/><circle class="eye" cx="127" cy="80" r="8" fill="#7dd3fc"/>
+      <circle cx="90" cy="77" r="2.8" fill="white" opacity=".9"/><circle cx="124" cy="77" r="2.8" fill="white" opacity=".9"/>
+      <path d="M98 96c7 6 17 6 24 0" stroke="#c4b5fd" stroke-width="3.5" stroke-linecap="round"/>
+      <rect x="41" y="68" width="15" height="30" rx="8" fill="#93c5fd"/><rect x="164" y="68" width="15" height="30" rx="8" fill="#93c5fd"/>
+    </g>
+    <rect x="101" y="119" width="18" height="14" rx="6" fill="#dbeafe"/>
+    <rect x="70" y="130" width="80" height="62" rx="30" fill="url(#core)" stroke="white" stroke-opacity=".34" stroke-width="2"/>
+    <rect x="91" y="146" width="38" height="29" rx="13" fill="#08111f" fill-opacity=".52" stroke="white" stroke-opacity=".14"/>
+    <path d="M110 153l4 8 9 1.5-6.5 6.2 1.5 8.8-8-4.3-8 4.3 1.5-8.8-6.5-6.2 9-1.5 4-8z" fill="white" opacity=".92"/>
+    <g class="armL"><rect x="42" y="138" width="36" height="13" rx="7" fill="#bfdbfe"/><circle cx="39" cy="144.5" r="8" fill="#8b5cf6"/></g>
+    <g class="armR"><rect x="142" y="138" width="36" height="13" rx="7" fill="#bfdbfe"/><circle cx="181" cy="144.5" r="8" fill="#8b5cf6"/></g>
+    <ellipse cx="110" cy="198" rx="48" ry="12" fill="#000" opacity=".28" filter="url(#s)"/>
+    <rect x="151" y="28" width="50" height="32" rx="16" fill="#09090f" fill-opacity=".76" stroke="white" stroke-opacity=".16"/>
+    <circle class="dot" cx="169" cy="44" r="3.5" fill="#c4b5fd"/><circle class="dot" cx="179" cy="44" r="3.5" fill="#c4b5fd"/><circle class="dot" cx="189" cy="44" r="3.5" fill="#c4b5fd"/>
+  </g>
+</svg>
