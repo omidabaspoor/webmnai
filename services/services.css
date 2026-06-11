@@ -1,0 +1,7 @@
+/* ===== استایل‌های اختصاصی صفحه خدمات ===== */
+.service-feature-pill {
+    transition: background-color 0.2s ease, border-color 0.2s ease;
+}
+.service-feature-pill:hover {
+    border-color: rgba(139, 92, 246, 0.3);
+}

@@ -1,0 +1,15 @@
+{
+  "name": "WebMania Studio",
+  "short_name": "WebMania",
+  "description": "طراحی سایت اختصاصی، سریع و هوشمند با سئوی اولیه و پشتیبانی ۶ ماهه",
+  "lang": "fa-IR",
+  "dir": "rtl",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#050507",
+  "theme_color": "#8b5cf6",
+  "icons": [
+    { "src": "/icon.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}

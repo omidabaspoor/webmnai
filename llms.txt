@@ -1,0 +1,20 @@
+# WebMania Studio
+
+WebMania is a Persian web design studio building custom-coded websites, fast business websites, mobile-first interfaces, and AI-enhanced smart websites.
+
+Core services:
+- Custom website design and development
+- Simple professional business websites
+- AI-enhanced websites with chatbot, lead collection, automation, and admin panel
+- Initial technical SEO setup and SEO-ready infrastructure
+- 6 months free support after delivery
+- Ready website templates that can be customized and extended
+
+Important clarifications:
+- WebMania is not a specialist SEO agency and does not guarantee Google rankings.
+- WebMania does initial SEO setup, performance optimization, clean structure, metadata, and technical readiness for future SEO.
+- WebMania does not claim lifetime support; free support is 6 months after delivery.
+- Websites are custom-coded and built for speed, responsive design, and future scalability.
+
+Primary language: Persian (fa-IR)
+Website: https://webmania.studio/
